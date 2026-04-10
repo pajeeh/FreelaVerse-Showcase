@@ -67,15 +67,15 @@ A regra é estritamente técnica: faça o reconhecimento (`nmap`), encontre a vu
 
 O FreelaVerse não é apenas um terminal falso; é um **Ecossistema Virtual Completo (OS)** rodando dentro do seu dispositivo.
 
-| Módulo Core | Especificação Técnica |
+| Módulo | Como Funciona |
 | :--- | :--- |
-| 📟 **Terminal Tático (CLI)** | Mais de 20 comandos mapeados via `CommandRegistry` (`ifconfig`, `net_map`, `wifi_tool`, `nano`). O tempo de execução de quebra de senhas reage em tempo real aos *specs* de RAM e CPU do seu hardware virtual. |
-| 🕸️ **Topologia Mesh** | Não basta atacar. Você precisa pivotar. Use o `NetworkTreeBuilder` para visualizar nós de rede interconectados, pular entre proxies e invadir Servidores Corporativos camada por camada. |
-| 🌐 **Navegador NetSurf (Deep Web)** | Uma internet simulada rodando in-game. Acesse o **FreelaSearch**, Fóruns Hackers, **Exchange de Criptomoedas**, Portais Bancários e a Wiki através de um motor de renderização nativo. |
-| ⚙️ **Engenharia de Hardware** | A `MySetupView` suporta **Drag & Drop / Hot-Swap** de Placas-Mãe, CPU, GPU, RAM e Storage. O hardware substituído sofre depreciação matemática e volta para o seu inventário. |
-| 🎨 **Arte Procedural** | Nada de imagens estáticas na Loja. O motor utiliza `procedural_hardware_art.dart` para desenhar PCBs e chips em tempo de execução, mudando as cores dependendo do clock e da capacidade da peça. |
-| 📧 **Contratos & Corporações** | Um sistema de `Inbox` dinâmico. Receba propostas de facções Red Team, aceite contratos corporativos da *Genesis* e gerencie os seus projetos simultâneos. |
-| 🤖 **Integração IA** | Motor PVE alimentado pelo `ia_service.dart`, gerando defesas adaptativas em servidores corporativos que tentam rastrear o jogador em tempo real. |
+| 📟 **Terminal Tático** | Mais de 20 comandos reais (`ifconfig`, `net_map`, `wifi_tool`, `nano`). A velocidade do interpretador e o tempo de quebra de firewalls reagem dinamicamente à capacidade de processamento (CPU/RAM) do seu hardware in-game. |
+| 🕸️ **Topologia Mesh** | A invasão não é linear. Visualize redes complexas e use nós comprometidos como "proxies" (*pivoting*) para saltar por diferentes camadas de segurança até atingir o *mainframe* de corporações blindadas. |
+| 🌐 **Deep Web Browser** | Uma internet viva simulada dentro do jogo. Navegue por motores de busca obscuros, invista em mercados de Criptomoedas, acesse contas em Portais Bancários ou estude falhas de segurança na Wiki hacker. |
+| ⚙️ **Hot-Swap de Hardware** | Monte e faça o *upgrade* da sua máquina peça por peça em tempo real (*Drag & Drop*). O mercado paralelo simula desgaste financeiro: o hardware substituído perde valor e pode ser guardado no seu *stash* local ou revendido. |
+| 🎨 **Mercado Dinâmico** | Esqueça itens estáticos. Cada placa, processador ou chip vendido no mercado negro é gerado proceduralmente de forma visual. A cor, os barramentos e o *design* do chip mudam com base na capacidade, *clock* e geração da peça. |
+| 📧 **Facções & Contratos** | A sua caixa de entrada dita o seu alinhamento. Aceite invasões patrocinadas por grupos criminosos independentes ou seja contratado de forma legal como consultor de segurança por megacorporações. |
+| 🤖 **Contra-Inteligência** | O jogo reage aos seus rastros. Servidores invadidos contam com sistemas de defesa adaptativos que tentam triangular o seu IP de origem enquanto você tenta extrair os dados. Desconecte-se rápido, ou sofra as consequências. |
 
 ---
 
