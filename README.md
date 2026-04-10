@@ -7,7 +7,7 @@
 <br>
 
 <div align="center">
-  <a href="https://github.com/seu-usuario/freelaverse">
+  <a href="https://github.com/pajeeh/FreelaVerse-Showcase">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=55&pause=1000&color=4ADE80&center=true&vCenter=true&width=600&height=80&lines=FreelaVerse;root@freela:~%23+;System+Online." alt="Typing SVG" />
   </a>
 </div>
@@ -31,23 +31,51 @@
 
 > *"No submundo digital, a sua máquina é o seu bunker. E o seu terminal, a sua arma."*
 
-O **FreelaVerse** é um simulador de hacking multijogador focado em interface de linha de comandos (CLI). O jogo funde a mecânica imersiva de terminais (estilo *Hacknet* e *Grey Hack*) com uma arquitetura de persistência híbrida e economia passiva (Botnets e Mineração).
+O **FreelaVerse** é um simulador de hacking multijogador focado em interface de linha de comandos (CLI). Construído para quem vive no terminal, o jogo funde a mecânica imersiva de exploração de redes (estilo *Hacknet* e *Uplink*) com uma economia passiva de Botnets, Mineração e montagem de Hardware.
 
-A regra é puramente técnica: encontre a vulnerabilidade, escale privilégios, roube os dados para cobrar o *bounty*, apague seus logs e desconecte antes que o rastreio bata 100%.
+A regra é estritamente técnica: faça o reconhecimento (`nmap`), encontre a vulnerabilidade, escale privilégios (`exploit`), roube os dados do contrato, apague os seus logs (`rm -rf`) e desconecte antes que o rastreio ativo atinja 100%.
+
+---
+
+## 📸 Interface Visual (OS UI)
+
+*(Alpha Build Screenshots)*
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Dashboard & Analytics</b><br><img src="assets/screenshots/Dashboard.png" width="400" alt="Dashboard Econômico"></td>
+      <td align="center"><b>Topologia Mesh</b><br><img src="assets/screenshots/Mesh.png" width="400" alt="Topologia Mesh"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Inventário & Setup Local</b><br><img src="assets/screenshots/Inventory.png" width="400" alt="Inventário"></td>
+      <td align="center"><b>Dark Web Market</b><br><img src="assets/screenshots/marketplace.png" width="400" alt="Marketplace"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Pesquisa & Filtros de Mercado</b><br><img src="assets/screenshots/filtroMarketplace.png" width="400" alt="Filtro Marketplace"></td>
+      <td align="center"><b>Missões & Contratos</b><br><img src="assets/screenshots/MissoesAtivas.png" width="400" alt="Missões Ativas"></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><b>Inbox & Comunicações Criptografadas</b><br><img src="assets/screenshots/mailService.png" width="800" alt="Mail Service"></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
 ## 💻 Features Letais
 
-O FreelaVerse não é apenas um terminal falso; é um Ecossistema Virtual (OS) completo rodando dentro do seu dispositivo.
+O FreelaVerse não é apenas um terminal falso; é um **Ecossistema Virtual Completo (OS)** rodando dentro do seu dispositivo.
 
-| Módulo | Especificação Técnica |
+| Módulo Core | Especificação Técnica |
 | :--- | :--- |
-| 📟 **Terminal Tático (CLI)** | Interface assíncrona operada por um `CommandRegistry` de roteamento dinâmico. Execute `nmap`, `ping`, `exploit` e `wifi_tool`. A velocidade dos comandos reage em tempo real aos *specs* de RAM e CPU do seu hardware virtual. |
-| 🌐 **Navegador NetSurf (Deep Web)** | Uma internet simulada completa rodando in-game. Acesse fóruns, Exchange de Criptomoedas, Portais Bancários e a Wiki através de um motor de renderização nativo (`web_page_renderer.dart`). |
-| ⚙️ **Hardware Hot-Swap** | Monte seu PC peça por peça. A `MySetupView` suporta "Troca a Quente" de CPU, GPU, RAM e Storage. O hardware substituído sofre depreciação matemática e regressa ao *stash* local para revenda. |
-| 🎨 **Arte Procedural (Mercado)** | Os componentes na loja não são imagens estáticas. O motor utiliza `procedural_hardware_art.dart` para desenhar PCBs e chips em tempo de execução com base nos *status* de cada peça. |
-| 💸 **Economia Idle/Ativa** | Crie *Daemons* de defesa, minere Créditos (₿) em background com Redes Zumbi, e equilibre os ataques do *Red Team* com as defesas do *Blue Team*. |
+| 📟 **Terminal Tático (CLI)** | Mais de 20 comandos mapeados via `CommandRegistry` (`ifconfig`, `net_map`, `wifi_tool`, `nano`). O tempo de execução de quebra de senhas reage em tempo real aos *specs* de RAM e CPU do seu hardware virtual. |
+| 🕸️ **Topologia Mesh** | Não basta atacar. Você precisa pivotar. Use o `NetworkTreeBuilder` para visualizar nós de rede interconectados, pular entre proxies e invadir Servidores Corporativos camada por camada. |
+| 🌐 **Navegador NetSurf (Deep Web)** | Uma internet simulada rodando in-game. Acesse o **FreelaSearch**, Fóruns Hackers, **Exchange de Criptomoedas**, Portais Bancários e a Wiki através de um motor de renderização nativo. |
+| ⚙️ **Engenharia de Hardware** | A `MySetupView` suporta **Drag & Drop / Hot-Swap** de Placas-Mãe, CPU, GPU, RAM e Storage. O hardware substituído sofre depreciação matemática e volta para o seu inventário. |
+| 🎨 **Arte Procedural** | Nada de imagens estáticas na Loja. O motor utiliza `procedural_hardware_art.dart` para desenhar PCBs e chips em tempo de execução, mudando as cores dependendo do clock e da capacidade da peça. |
+| 📧 **Contratos & Corporações** | Um sistema de `Inbox` dinâmico. Receba propostas de facções Red Team, aceite contratos corporativos da *Genesis* e gerencie os seus projetos simultâneos. |
+| 🤖 **Integração IA** | Motor PVE alimentado pelo `ia_service.dart`, gerando defesas adaptativas em servidores corporativos que tentam rastrear o jogador em tempo real. |
 
 ---
 
@@ -63,10 +91,23 @@ O FreelaVerse não é apenas um terminal falso; é um Ecossistema Virtual (OS) c
 O projeto foi desenhado para escalar até milhares de jogadores simultâneos, mantendo o custo de infraestrutura na nuvem próximo de zero.
 
 * 🧠 **State Management (Mixins):** Padrão `Provider` fragmentado via *Mixins*. Separação rigorosa de domínios (Hardware, Rede, Economia, Status) para evitar super-objetos (*God Classes*).
-* 🗺️ **Single Source of Truth (SSOT):** Navegação via `NavigationRegistry`, gerando UIs complexas (Side Panels e IndexedStacks) em tempo de compilação sem risco de *Index Out of Bounds*.
+* 🗺️ **Single Source of Truth (SSOT):** Navegação automatizada via `NavigationRegistry`. Interfaces complexas (Side Panels e IndexedStacks) são geradas em tempo de compilação.
 * 💽 **Storage Híbrido (Zero-Lag):**
-  * **Local-First (Hive/SQLite):** O dispositivo do utilizador dita a verdade temporária para inventário. Zero latência de rede.
-  * **Cloud (Firebase):** Utilizado estritamente para Autenticação, Matchmaking (WebRTC/P2P) e Backups assíncronos protegidos por padrões *Debounce*.
-* 🔒 **Segurança Anti-Cheat:** Implementação de *MutEx Locks* (Travas de Exclusão Mútua) nas rotinas de checkout do terminal para neutralizar exploits de *Double-Spending* e ataques DDoS locais.
+  * **Local-First:** O dispositivo do utilizador dita a verdade temporária para o Dashboard (Gráficos de Produtividade) e Inventário. Zero latência.
+  * **Cloud (Firebase):** Autenticação segura e Backups atômicos assíncronos protegidos por padrões de *Debounce*.
+* 🔒 **Segurança Anti-Cheat:** Implementação de *MutEx Locks* (Travas de Exclusão Mútua) nas rotinas de checkout do terminal para neutralizar exploits de *Double-Spending*.
 
 ---
+
+## 🎮 Acesso Antecipado (Alpha Build)
+
+O projeto é mantido sob desenvolvimento restrito (Closed-Source Core). 
+
+Se você é um desenvolvedor, analista de segurança ou entusiasta de simuladores imersivos e quer testar os limites do nosso terminal, **junte-se à rede**.
+
+> 📩 **Solicite a sua Chave de Acesso:** [Insira seu link de Discord / Twitter / Email aqui]
+
+<br>
+<div align="center">
+  <em>Transmissão Criptografada. Cuidado com os Daemons.</em>
+</div>
