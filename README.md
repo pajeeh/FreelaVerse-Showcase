@@ -55,7 +55,7 @@ O FreelaVerse não é apenas um terminal falso; é um Ecossistema Virtual (OS) c
 
 <div align="center">
   <picture>
-    <img src="assets/Freelaverse-Schem.png" alt="Esquema de Arquitetura do FreelaVerse" width="80%">
+    <img src="assets/FreelaverseSchem.png" alt="Esquema de Arquitetura do FreelaVerse" width="80%">
   </picture>
 </div>
 <br>
